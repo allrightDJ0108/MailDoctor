@@ -1,0 +1,209 @@
+html, body {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+#root {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+}
+
+.email-app {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+  width: 100vw;
+  border: 1px solid #ccc;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.app-header {
+  display: flex; /* Flexbox 적용 */
+  justify-content: space-between; /* 공간을 고르게 배분 */
+  align-items: center; /* 세로축 중앙 정렬 */
+  padding: 10px;
+  background-color: #509BE5;
+  border-bottom: 1px solid #ccc;
+}
+
+.header-left, .header-center, .header-right {
+  display: flex;
+  align-items: center;
+}
+
+.header-left {
+  margin-right: auto;
+}
+
+.header-center {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+}
+
+.header-right {
+  margin-left: auto;
+}
+
+.app-title {
+  font-size: 20px;
+  font-weight: bold;
+  color: white;
+}
+
+.search-bar {
+  width: 300px;
+  padding: 5px;
+}
+
+.user-icon {
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  background-color: #0078d4;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.header-tabs {
+  margin-top: 10px;
+  width: 100%;
+}
+
+.header-tabs ul {
+  display: flex;
+  justify-content: space-around;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  background-color: #0078d4;
+  border-radius: 5px;
+}
+
+.header-tabs ul li {
+  padding: 10px 20px;
+  color: white;
+  cursor: pointer;
+}
+
+.header-tabs ul li:hover {
+  background-color: #005a9e;
+}
+
+.app-body {
+  flex: 1;
+  width: 100%;
+}
+
+.side-nav {
+  width: 250px;
+  padding: 10px;
+  background-color: #f9f9f9;
+  border-right: 1px solid #ccc;
+}
+
+.folders {
+  margin-top: 20px;
+}
+
+.folders h3 {
+  margin: 10px 0;
+}
+
+.folders ul {
+  list-style: none;
+  padding: 0;
+}
+
+.folders ul li {
+  margin: 5px 0;
+}
+
+.email-content {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  padding: 10px;
+}
+
+.email-header, .email-body {
+  margin-bottom: 5px;
+  margin-left: 0px;
+}
+
+.emaill-footer {
+  margin-right: 10px;
+}
+
+.email-controls {
+  display: flex;
+  align-items: center;
+}
+
+.font-select, .font-size {
+  margin-right: 10px;
+}
+
+.format-buttons button {
+  margin-right: 5px;
+}
+
+.email-to, .email-subject {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 10px;
+  border: 1px solid #ccc;
+}
+
+.email-textarea {
+  width: 100%;
+  height: 300px;
+  padding: 10px;
+  border: 1px solid #ccc;
+}
+
+.email-footer button {
+  margin-right: 10px;
+  padding: 10px 20px;
+  background-color: #0078d4;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.spellcheck-results {
+  margin-top: 20px;
+  background-color: #f9f9f9;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.spellcheck-results h3 {
+  margin-top: 0;
+}
+
+.spellcheck-results ul {
+  list-style: none;
+  padding: 0;
+}
+
+.spellcheck-results li {
+  margin-bottom: 5px;
+}
+
+.original {
+  color: red;
+  text-decoration: line-through;
+}
+
+.corrected {
+  color: green;
+}
