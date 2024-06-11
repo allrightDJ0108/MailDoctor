@@ -41,7 +41,7 @@ function EmailContent() {
       const editorInstance = editorRef.current.getInstance();
       const emailBody = editorInstance.getMarkdown();
     //   http://192.168.0.134:8080/mail
-      const response = await fetch('http://192.168.0.134:8080/mail', {
+      const response = await fetch('http://13.124.115.113:8080/mail', {
         method: 'POST',
         headers: {
           'Content-Type': 'application/json'
