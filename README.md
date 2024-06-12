@@ -1,8 +1,30 @@
-# React + Vite
+# :rotating_light: MailDoctor 💿
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+### 메일닥터가 여러분의 메일을 진단해드립니다! :sunglasses::sparkles:
 
-Currently, two official plugins are available:
+<br>
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## :mailbox: 서비스 개요 
+
+- 거래처에 메일을 보내는데, 맞춤법을 틀리거나 오타가 나면 안되겠죠?
+- 그렇지만, 작성한 내용을 맞춤법 검사기를 돌리려니 너무 번거로워요ㅠㅠ
+
+### 메일 닥터가 이러한 불편함을 해결해드립니다!
+
+
+<br>
+
+## :pill: 서비스 사용방법 
+
+1. 메일을 작성한다.
+2. 맞춤법 검사기 버튼을 클릭한다.
+3. 맞춤법을 수정한다.
+4. 메일을 전송한다.
+
+### 끝~ 정말 쉽죠?! :satisfied: :notes:
+
+<br>
+
+## 🔧 서비스 개발자
+
+#### 송지현 | 최다정 | 최하성 | 서지오
